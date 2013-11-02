@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 
 gem 'pg'
+gem 'hue'
 
 gem 'sass-rails', '~> 4.0.0'
 
