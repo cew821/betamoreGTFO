@@ -5,8 +5,6 @@ class Calendar
 
 	end
 
-	def send
 
-	end
 
 end
