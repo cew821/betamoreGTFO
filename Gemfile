@@ -6,6 +6,7 @@ gem 'rails', '4.0.1'
 gem 'pg'
 gem 'hue'
 gem 'figaro'
+gem 'google-api-client'
 
 gem 'sass-rails', '~> 4.0.0'
 
