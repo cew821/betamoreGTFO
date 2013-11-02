@@ -45,6 +45,9 @@ GEM
     diff-lcs (1.2.4)
     erubis (2.7.0)
     execjs (2.0.2)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     hike (1.2.3)
     hue (0.1.2)
       multi_json
@@ -138,6 +141,7 @@ DEPENDENCIES
   awesome_print
   capybara (~> 2.1.0)
   coffee-rails (~> 4.0.0)
+  figaro
   hue
   jbuilder (~> 1.2)
   jquery-rails
