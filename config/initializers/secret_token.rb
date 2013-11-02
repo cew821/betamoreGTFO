@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-BetamoreGTFO::Application.config.secret_key_base = '6ae328b26ebff6a22b105588d244375f26302ab9ed16e7d339c0ea653abfd1d206ffb4b361494ffd0f85aa1edfc955d3b0ac287fc4197ea7dd3f1327902b4304'
+BetamoreGTFO::Application.config.secret_key_base = '25ae494a890e2d8a0bc2c1c280614de85c1440e5119d0bca6d89d4bc24bf895b6dee2db02c3bbe1ab5f4ffb64ee0b47550fec02d453f7c57af03d60b799c03c4'
