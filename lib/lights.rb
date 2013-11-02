@@ -32,6 +32,14 @@ class Lights
 		restore_defaults
 	end
 
+	def party
+		30.times do
+			hue = rand 65535
+			set_all 0, {hue: hue, saturation: 255 }
+		end
+		restore_defaults
+	end
+
 	def restore_defaults
 		set_all 30, {hue: 40000, saturation: 0 }
 	end
