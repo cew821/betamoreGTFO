@@ -1,1 +1,0 @@
-An application to warn people when it's time to GTFO of the conference room because another meeting is starting.
