@@ -25,9 +25,9 @@ class Lights
 	def warn
 		3.times do
 			set_all 20, {hue: 0, saturation: 255 }
-			sleep 2
+			sleep 3
 			set_all 20, {hue: 40000, saturation: 0 }
-			sleep 2
+			sleep 3
 		end
 		restore_defaults
 	end

@@ -30,13 +30,12 @@ class Calendar
 	def is_event_imminent? (event)
 		fake_time = Time.parse("2013-11-05 10:31:00 -0500")
 		start_time = Time.parse(event["start"]["dateTime"])
-		start_time >= Time.now && start_time < 2.minutes.from_now
+		start_time >= Time.now && start_time < 3.minutes.from_now
 	end
 
 	def request(options)
 		params = { key: ENV["GOOGLE_API_KEY"] }
 		params.merge! options
-		puts params
 		self.class.get('/events', query: params)
 	end
 end

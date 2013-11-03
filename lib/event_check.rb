@@ -6,10 +6,12 @@ class EventCheck
 			issue_warning
 			return true
 		end
+		puts "no imminent events found"
 		false
 	end
 
 	def self.issue_warning
+		puts "Warning occupents of upcoming event!"
 		lights = Lights.new
 		lights.warn
 	end
